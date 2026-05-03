@@ -1,7 +1,6 @@
 //Write your code in this file
 
 #include <stdio.h>
-#include <math.h>
 
 int beräkna_högst_medelpoäng(int total1, int total2, int total3, int total4, int total5){
 
@@ -114,7 +113,7 @@ int main(){
     //högst medelpoäng
     int högst_medelpoäng = beräkna_högst_medelpoäng(total1, total2, total3, total4, total5);
 
-    if(högst_medelpoäng == 1){
+    if(högst_medelpoäng  ==1){
         printf("%s\n",elev1);
     }
 
@@ -142,13 +141,13 @@ int main(){
     if(total1/13.0<totala_medelpoäng){
         printf("%s\n",elev1);
     }
-     if(total2/13.0<totala_medelpoäng){
+    if(total2/13.0<totala_medelpoäng){
         printf("%s\n",elev2);
     }
-     if(total3/13.0<totala_medelpoäng){
+    if(total3/13.0<totala_medelpoäng){
         printf("%s\n",elev3);
     }
-     if(total4/13.0<totala_medelpoäng){
+    if(total4/13.0<totala_medelpoäng){
         printf("%s\n",elev4);
     }
      if(total5/13.0<totala_medelpoäng){
